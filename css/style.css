@@ -1,11 +1,14 @@
+/* la prima parte andrà fatta sempre su ogni css*/
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* selettori tag */
+
 body {
-    background-color: rgb(175, 175, 175);
+    background-color: whitesmoke;
 }
 
 header {
@@ -32,10 +35,34 @@ main {
     border-radius: 5px;  
 }
 
-#prima-riga {
-    padding: 10px;
-    margin-left: 5%;
+hr{
+    border: 1px solid whitesmoke;
 }
+
+ul {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px 0;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+li {
+    list-style: none;
+    font-weight: normal;
+    margin: 10px 0;
+    font-size: medium;
+}
+
+span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer{
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* selettori id */
 
 #add-task {
     background-color: rgb(34, 164, 250);
@@ -55,3 +82,69 @@ main {
     background-color: white;
     font-weight: bold;
 }
+
+/* selettori class */
+
+.distanze-container {
+    padding: 10px;
+    margin-left: 20px;
+}
+
+
+.list-title{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.v-verde {
+    height: 25px;
+    width: 25px;
+    border: 2px solid;
+    border-radius: 50%;
+    text-align: center; 
+    color: rgb(29, 204, 29);
+}
+
+.r-rosso{
+    height: 25px;
+    width: 25px;
+    border: 2px solid;
+    border-radius: 50%;
+    text-align: center; 
+    color: red;
+}
+
+.end-list{
+        color: white;
+        font-size: x-small;
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius: 10px;
+}
+
+.editorial{
+    background-color: dodgerblue;
+}
+
+.q1goals{
+    background-color: darkorchid ;
+}
+
+.recruiting{
+    background-color: mediumseagreen;
+}
+
+.mobile{
+    background-color: orangered;
+}
+
+.websites{
+    background-color: palevioletred;
+}
+
+.sales{
+    background-color: olive;
+}
+
+
+
